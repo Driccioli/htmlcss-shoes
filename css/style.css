@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#box-1{
+    background-color: lightsalmon;
+    color: white;
+}
+
+#box-2{
+    background-color: lightgreen;
+    color: red;
+}
+
+#box-3{
+    background-color: lightpink;
+    color: purple;
+}
+
+img{
+    max-width: 500px;
+}
+
+.container-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.button-container{
+    position:fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.button{
+    float: right;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
